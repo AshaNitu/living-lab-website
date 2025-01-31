@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Living Lab Website</title>
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- daisyUI cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- font awesome cdn -->
+  <script scr="https://kit.fontawesome.com/163c19f9c2.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <div class="max-w-[1400px] mx-auto">
+    <!-- navbar section -->
+    <div class="flex items-center justify-between px-4 py-2">
+      <!-- Logo Section -->
+      <div class="flex items-center">
+        <img src="c2-assets/logo-header.png" alt="Logo" class="h-10">
+      </div>
+
+      <!-- Centered Navbar Items -->
+      <div class="flex-1 flex justify-center space-x-6">
+        <h3 class="text-lg font-medium">Product</h3>
+        <h3 class="text-lg font-medium">Services</h3>
+        <h3 class="text-lg font-medium">Contact us</h3>
+      </div>
+      <!-- navbar icon section -->
+      <div class="flex space-x-4 mr-2">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-sharp-duotone fa-solid fa-cart-plus"></i>
+      </div>
+
+      <!-- Button Section -->
+      <div class="flex space-x-4">
+        <button class="px-4 py-2 text-black rounded-lg bg-white">Login</button>
+        <button class="px-4 py-2 bg-green-500 text-white rounded-lg ">Register</button>
+      </div>
+  </div>
+
+    <!-- banner section-->
+    <div class="mt-12 text-center">
+      <div class="max-w-[827px] mx-auto">
+        <!-- text section -->
+         <div>
+          <h1 class="text-4xl font-bold">Freshness <span class="text-green-600">You Can</span> <br>
+            <span class="text-green-600">Count</span> On, Prices You’ll Love!</h1>
+         </div>
+         <!-- paragraph section -->
+          <div class="mt-7 max-w-[799]">
+            <p class="text-[rgb(17, 17, 17)]">Shop your daily essentials at unbeatable prices. 
+              From fresh produce to pantry <br>staples, we’ve got you covered every day!</p>
+          </div>
+      </div>
+    </div>
+    <!-- banner picture section -->
+    <div class="w-1/2 mx-auto mt-7">
+      <img  src="c2-assets/hero-vegetables.png" alt="">
+    </div>
+
+
+</body>
+
+</html>
